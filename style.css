@@ -97,6 +97,16 @@ h1 {
   float: left;
 }
 
+#image1 {
+  margin: 2em 0 0 2em;
+  width: 12em;
+  height: 12em;
+  float: left;
+  overflow: hidden;
+  border-radius: 1em;
+  margin-left: 20px;
+}
+
 #intro-image {
   margin: 2em 0 0 2em;
   width: 12em;
