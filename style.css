@@ -98,10 +98,9 @@ h1 {
 }
 
 #image1 {
-  margin: 2em 0 0 2em;
   width: 6em;
   height: 4em;
-  float: left;
+  float: right;
   overflow: hidden;
   border-radius: 1em;
 }
