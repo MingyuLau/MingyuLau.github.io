@@ -98,11 +98,8 @@ h1 {
 }
 
 #image1 {
-  width: 6em;
-  height: 4em;
-  float: right;
-  overflow: hidden;
-  border-radius: 1em;
+  width: 8em;
+  height: 6em;
 }
 
 #intro-image {
