@@ -99,12 +99,11 @@ h1 {
 
 #image1 {
   margin: 2em 0 0 2em;
-  width: 12em;
-  height: 8em;
+  width: 6em;
+  height: 4em;
   float: left;
   overflow: hidden;
   border-radius: 1em;
-  margin-left: 20px;
 }
 
 #intro-image {
