@@ -93,8 +93,14 @@ h1 {
 }
 
 #intro-text {
+  display: flex;
+  align-items: center;
   width: 40em;
   float: left;
+}
+
+#intro-text img {
+  margin-left: 20px;
 }
 
 #image1 {
@@ -298,6 +304,16 @@ h3 a:hover {
 .project-description {
   width: 80%;
   float: left;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-right: 20px;
 }
 
 /**************************************************/
