@@ -304,3 +304,17 @@ h3 a:hover {
   bottom: 0;
   line-height: 2.5em;
 }
+
+
+.container {
+    display: flex; /* 使用 Flex 布局 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.text {
+    font-size: 2.4em;
+    line-height: 3em;
+    font-weight: 500;
+    margin-right: 10px; /* 在文字和图片之间添加一些间距 */
+}
+
