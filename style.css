@@ -315,6 +315,6 @@ h3 a:hover {
     font-size: 2.4em;
     line-height: 3em;
     font-weight: 500;
-    margin-right: 8px; /* 在文字和图片之间添加一些间距 */
+    margin-right: 6px; /* 在文字和图片之间添加一些间距 */
 }
 
