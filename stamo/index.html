@@ -276,31 +276,22 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            A fundamental challenge in embodied intelligence is developing expressive and compact state representations 
+            for efficient world modeling and decision making. However, existing methods often fail to achieve this 
+            balance, yielding representations that are either overly redundant or lacking in task-critical information.
+             We propose an unsupervised approach that learns a highly compressed two-token state representation using a
+              lightweight encoder and a pre-trained Diffusion Transformer (DiT) decoder, capitalizing on its strong 
+              generative prior. Our representation is efficient, interpretable, and integrates seamlessly into existing
+               VLA-based models, improving performance by 14.3% on LIBERO and 30% in real-world task success with
+               minimal inference overhead. More importantly, we find that the difference between these tokens, obtained
+                via latent interpolation, naturally serves as a highly effective latent action, which can be further 
+                decoded into executable robot actions. This emergent capability reveals that our representation 
+                captures structured dynamics without explicit supervision. We name our method StaMo for its ability 
+                to learn generalizable robotic Motion from compact State representation, which is encoded from static 
+                images, challenging the prevalent dependence to learning latent action on complex architectures and 
+                video data. The resulting latent actions also enhance policy co-training, outperforming prior methods 
+                by 10.4% with improved interpretability. Moreover, our approach scales effectively across diverse data 
+                sources, including real-world robot data, simulation, and human egocentric video.
           </p>
         </div>
       </div>
