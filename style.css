@@ -440,7 +440,8 @@ h3 a:hover {
   line-height: 1.85;
 }
 
-.misc-section-title {
+.misc-section-title,
+.experience-group-title {
   margin: 0;
   padding-bottom: 0.6em;
   border-bottom: 1px solid #e6e9ee;
@@ -514,13 +515,7 @@ h3 a:hover {
 }
 
 .experience-group-title {
-  margin: 0;
   padding-bottom: 0.65em;
-  font-size: 1.1em;
-  line-height: 1.5em;
-  font-weight: 500;
-  color: #150c21;
-  border-bottom: 1px solid #e6e9ee;
 }
 
 .experience-list + .experience-group-title {
