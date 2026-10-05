@@ -19,7 +19,7 @@ Preview locally with `python3 -m http.server 8765 --bind 127.0.0.1`, then open `
 
 ## Experience
 
-The **Experience** tab uses a single-column list with local institution logos, grouped into Research & Industry and Education. It includes ByteDance Seed, Shanghai AI Laboratory, Shanghai Jiao Tong University / MVIG, Zhejiang University, and HUST. ByteDance lists the Multimodal Interaction and World Model team; Shanghai AI Laboratory lists Tong He and Jiangmiao Pang. HUST shows education only, and the NTU visit is omitted from this tab. No missing start/end dates or additional positions are inferred.
+The **Experience** tab uses a single-column list with local institution logos, grouped into Internship and Education. It includes ByteDance Seed, Shanghai AI Laboratory, Shanghai Jiao Tong University / MVIG, Zhejiang University, and HUST. ByteDance lists the Multimodal Interaction and World Model team; Shanghai AI Laboratory lists Tong He and Jiangmiao Pang. HUST shows education only, and the NTU visit is omitted from this tab. No missing start/end dates or additional positions are inferred.
 
 The five displayed date ranges are taken from the supplied CV: ByteDance Nov. 2025–Present, Shanghai AI Laboratory Dec. 2024–Oct. 2025, SJTU Dec. 2022–Nov. 2023, Zhejiang Sep. 2024–Present, and HUST Sep. 2020–Jun. 2024. The CV itself is not included in the website. SJTU uses a blue display variant of the existing emblem; the original red asset is retained.
 
