@@ -99,6 +99,7 @@ h1 {
 
 #intro-image {
   margin: 2em 0 0 2em;
+  flex-shrink: 0;
   width: 12em;
   height: 12em;
   float: left;
@@ -107,7 +108,11 @@ h1 {
 }
 
 #intro-image img {
+  display: block;
   width: 12em;
+  height: 12em;
+  object-fit: cover;
+  filter: saturate(0.82) brightness(1.08) contrast(0.96);
 }
 
 /**************************************************/
@@ -297,6 +302,239 @@ h3 a:hover {
   float: left;
 }
 
+#research-controls {
+  margin: 1.5em 0 0.5em;
+}
+
+#research-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.research-filter {
+  font: inherit;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding: 0.35em 0.75em;
+  color: #637084;
+  background: #fff;
+  border: 1px solid #dce1e7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.research-filter:hover,
+.research-filter.is-checked {
+  color: rgb(20, 110, 190);
+  border-color: rgb(20, 110, 190);
+  background: #eef5fb;
+}
+
+.research-filter:focus-visible {
+  outline: 2px solid rgb(20, 110, 190);
+  outline-offset: 3px;
+}
+
+.research-count {
+  font-size: 0.85em;
+  margin-left: 0.35em;
+}
+
+.research-summary {
+  font-size: 0.85em;
+  line-height: 1.6em;
+  color: #637084;
+  margin-top: 0.65em;
+}
+
+.publication-heading {
+  margin-top: 1.5em;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid #e6e9ee;
+}
+
+.publication-heading h2 {
+  margin: 0;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #150c21;
+}
+
+.publication-heading p {
+  margin-top: 0.3em;
+  font-size: 0.85em;
+  color: #637084;
+}
+
+.publication-entry {
+  display: flow-root;
+}
+
+.publication-entry .thumbnail img {
+  height: auto;
+}
+
+.publication-entry.without-thumbnail .project-description {
+  width: 100%;
+  float: none;
+}
+
+.publication-entry .publication-honor {
+  color: #37b58a;
+}
+
+#academic-service {
+  margin-top: 2em;
+  line-height: 1.85;
+}
+
+.misc-section-title {
+  margin: 0;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid #e6e9ee;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #788496;
+}
+
+#academic-service-title {
+  margin-bottom: 1.1em;
+}
+
+#academic-service .service-label {
+  margin-bottom: 0.3em;
+  font-size: 0.95em;
+  font-weight: 600;
+}
+
+.list-item.highlight,
+.honor-entry,
+#academic-service .service-list {
+  font-size: 0.95em;
+  line-height: 1.85;
+  color: #505e70;
+}
+
+#main-highlights .list-item.highlight {
+  margin-top: 0;
+  padding: 0.15em 0;
+}
+
+.list-item.highlight.description {
+  color: #788496;
+  margin-bottom: 0.7em;
+}
+
+#main-highlights b {
+  color: #273548;
+  font-weight: 600;
+}
+
+#main-highlights .news-date {
+  color: #788496;
+}
+
+.honor-entry {
+  margin-top: 0;
+  padding: 0.15em 0;
+}
+
+.misc:not(.honor-entry) + .honor-entry {
+  margin-top: 0.9em;
+}
+
+#academic-service .service-list li {
+  padding: 0.15em 0;
+}
+
+.honor-entry b,
+.honor-award {
+  color: #273548;
+  font-weight: 600;
+}
+
+.experience {
+  margin-top: 1.75em;
+  margin-bottom: 1em;
+}
+
+.experience-group-title {
+  margin: 0;
+  padding-bottom: 0.65em;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #150c21;
+  border-bottom: 1px solid #e6e9ee;
+}
+
+.experience-list + .experience-group-title {
+  margin-top: 1.7em;
+}
+
+.experience-entry {
+  display: grid;
+  grid-template-columns: 4.75em minmax(0, 1fr);
+  gap: 1.25em;
+  align-items: center;
+  padding: 1.2em 0;
+  border-bottom: 1px solid #eef0f3;
+}
+
+.experience-entry:last-child {
+  border-bottom: 0;
+}
+
+.experience-logo {
+  display: block;
+  width: 4.75em;
+  height: 4.75em;
+  object-fit: contain;
+}
+
+.experience-content {
+  min-width: 0;
+}
+
+.experience-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.2em 1em;
+}
+
+.experience-title h3 {
+  font-size: 1.05em;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.experience-period {
+  flex-shrink: 0;
+  font-size: 0.85em;
+  line-height: 1.5em;
+  color: #7b8798;
+}
+
+.experience-role {
+  margin-top: 0.2em;
+  line-height: 1.6em;
+  color: #505e70;
+}
+
+.experience-detail {
+  margin-top: 0.15em;
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: #788496;
+}
+
 /**************************************************/
 /* Subtle footer at the bottom of the page. */
 
@@ -319,4 +557,3 @@ h3 a:hover {
     font-weight: 500;
     margin-right: 6px; /* 在文字和图片之间添加一些间距 */
 }
-

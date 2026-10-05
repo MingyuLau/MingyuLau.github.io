@@ -67,24 +67,35 @@
             <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://github.com/MingyuLau">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://scholar.google.com/citations?user=1b_peoQAAAAJ&hl=zh-CN">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<!--             <a href="https://www.linkedin.com/in/%E6%98%8E%E5%AE%87-%E5%88%98-17411425b/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <a href="https://www.linkedin.com/in/mingyu-liu-17411425b/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <!-- <a href="https://drive.google.com/file/d/1GlAPUMLvXEHkMyfvR_eLxQn78rcrxZN2/view?usp=sharing">CV</a> -->
             <br><br>
             mingyuliu [at] zju [dot] edu [dot] cn
             <br><br>
           </p>
         </div>
-<!--         <div id="intro-image">
-          <img src="images/main.jpg">
-        </div> -->
+        <div id="intro-image">
+          <img src="images/profile-portrait-hd.jpg" width="1031" height="1031" alt="Ming-Yu Liu's illustrated profile avatar">
+        </div>
       </div>
 
       <div id="filters" class="button-group">
         <!-- <button class="button" data-filter="*">Show All</button> -->
         <button class="button is-checked" data-filter=".highlight">News</button>
         <button class="button" data-filter=".publication">Research</button>
-        <button class="button" data-filter=".talk">Talks</button>
+        <button class="button" data-filter=".experience">Experience</button>
         <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div id="research-controls" hidden>
+        <div id="research-filters" role="group" aria-label="Filter publications by research area">
+          <button type="button" class="research-filter is-checked" data-research-filter="all" aria-pressed="true">All <span class="research-count">33</span></button>
+          <button type="button" class="research-filter" data-research-filter="robotics" aria-pressed="false">Embodied AI <span class="research-count">11</span></button>
+          <button type="button" class="research-filter" data-research-filter="vlm" aria-pressed="false">Foundation Model <span class="research-count">8</span></button>
+          <button type="button" class="research-filter" data-research-filter="generative" aria-pressed="false">Generative Models &amp; World Models <span class="research-count">9</span></button>
+          <button type="button" class="research-filter" data-research-filter="rl" aria-pressed="false">Reinforcement Learning <span class="research-count">5</span></button>
+        </div>
+        <p class="research-summary"><span id="research-result-count" aria-live="polite">33 publications</span> &middot; * Equal contribution &middot; <a href="https://scholar.google.com/citations?user=1b_peoQAAAAJ&amp;hl=en">Google Scholar</a></p>
       </div>
 
       <div class="grid">
@@ -98,82 +109,82 @@
            <div id="main-highlights">
 
           <div class="list-item highlight" data-category="highlight">
-            [09/2026]: <b>Three</b> Papers accepted by <a href="https://neurips.cc/">NeurIPS2026</a>.
+            <span class="news-date">[09/2026]:</span> <b>Three</b> Papers accepted by <a href="https://neurips.cc/">NeurIPS2026</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [09/2026]: <b>Two</b> Papers accepted by <a href="https://www.corl.org/">CoRL2026</a>.
+            <span class="news-date">[09/2026]:</span> <b>Two</b> Papers accepted by <a href="https://www.corl.org/">CoRL2026</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [08/2026]: <b>One</b> Paper accepted by <a href="https://2026.emnlp.org/">EMNLP2026</a>.
+            <span class="news-date">[08/2026]:</span> <b>One</b> Paper accepted by <a href="https://2026.emnlp.org/">EMNLP2026</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [06/2026]: <b>One</b> Paper accepted by <a href="https://eccv.ecva.net/">ECCV2026</a>.
+            <span class="news-date">[06/2026]:</span> <b>One</b> Paper accepted by <a href="https://eccv.ecva.net/">ECCV2026</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [05/2026]: <b>Three</b> Papers accepted by <a href="https://icml.cc/">ICML2026</a>.
+            <span class="news-date">[05/2026]:</span> <b>Three</b> Papers accepted by <a href="https://icml.cc/">ICML2026</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [04/2026]: <b><i>StaMo</i></b> is chosen as CVPR2026 <b><i>Highlight(top 3.8%)</i></b>!
+            <span class="news-date">[04/2026]:</span> <b><i>StaMo</i></b> is chosen as CVPR2026 <b><i>Highlight(top 3.8%)</i></b>!
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [02/2026]: <b>Two</b> Papers accepted by <a href="https://cvpr.thecvf.com/">CVPR2026</a>.
+            <span class="news-date">[02/2026]:</span> <b>Two</b> Papers accepted by <a href="https://cvpr.thecvf.com/">CVPR2026</a>.
           </div>
           
           <div class="list-item highlight" data-category="highlight">
-            [01/2026]: <b>One</b> Paper accepted by <a href="https://iclr.cc/">ICLR2026</a>.
+            <span class="news-date">[01/2026]:</span> <b>One</b> Paper accepted by <a href="https://iclr.cc/">ICLR2026</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [11/2025]: <b><i>Odyssey</i></b> and <b><i>Affordance-R1</i></b> are  chosen as  AAAI2025 <b><i>Oral(top 3.5%)</i></b>!
+            <span class="news-date">[11/2025]:</span> <b><i>Odyssey</i></b> and <b><i>Affordance-R1</i></b> are  chosen as  AAAI2025 <b><i>Oral(top 3.5%)</i></b>!
             
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [11/2025]: <b>Three</b> Papers accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI2025</a>.
+            <span class="news-date">[11/2025]:</span> <b>Three</b> Papers accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI2025</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [09/2025]: <b><i>Diception</i></b> is chosen as  NeurIPS2025 <b><i>Spotlight(top 3.1%)</i></b>!
+            <span class="news-date">[09/2025]:</span> <b><i>Diception</i></b> is chosen as  NeurIPS2025 <b><i>Spotlight(top 3.1%)</i></b>!
             
           </div>
           <div class="list-item highlight" data-category="highlight">
-            [09/2025]: <b>Two</b> Papers accepted by <a href="https://neurips.cc/">NeurIPS2025</a>.
+            <span class="news-date">[09/2025]:</span> <b>Two</b> Papers accepted by <a href="https://neurips.cc/">NeurIPS2025</a>.
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [06/2025]: <b>One</b> Paper accepted by <a href="https://iccv.thecvf.com/">ICCV2025</a>.
+            <span class="news-date">[06/2025]:</span> <b>One</b> Paper accepted by <a href="https://iccv.thecvf.com/">ICCV2025</a>.
           </div>
           <div class="list-item highlight" data-category="highlight">
-            [04/2025]: <b>One</b> Paper accepted by <a href="https://2025.ijcai.org/">IJCAI2025</a>.
+            <span class="news-date">[04/2025]:</span> <b>One</b> Paper accepted by <a href="https://2025.ijcai.org/">IJCAI2025</a>.
             
           </div>
           <div class="list-item highlight" data-category="highlight">
-            [03/2025]: <b>One</b> Paper accepted by <a href="https://s2025.siggraph.org/">SIGGRAPH2025</a>.
+            <span class="news-date">[03/2025]:</span> <b>One</b> Paper accepted by <a href="https://s2025.siggraph.org/">SIGGRAPH2025</a>.
             
           </div>
              
           <div class="list-item highlight" data-category="highlight">
-            [02/2025]: <b>One</b> Paper accepted by <a href="https://cvpr.thecvf.com/">CVPR2025</a>.
+            <span class="news-date">[02/2025]:</span> <b>One</b> Paper accepted by <a href="https://cvpr.thecvf.com/">CVPR2025</a>.
             
           </div>
           <div class="list-item highlight" data-category="highlight">
-            [02/2025]: <b><i>PerturboLLaVa</i></b> is chosen as  ICLR2025 <b><i>Spotlight(top 5.1%)</i></b>!
+            <span class="news-date">[02/2025]:</span> <b><i>PerturboLLaVa</i></b> is chosen as  ICLR2025 <b><i>Spotlight(top 5.1%)</i></b>!
             
           </div>
                   
           <div class="list-item highlight" data-category="highlight">
-            [01/2025]: <b>Three</b> Papers accepted by <a href="https://iclr.cc/">ICLR2025</a>.
+            <span class="news-date">[01/2025]:</span> <b>Three</b> Papers accepted by <a href="https://iclr.cc/">ICLR2025</a>.
             
           </div>
 
           <div class="list-item highlight" data-category="highlight">
-            [07/2024]: <b>One</b> Paper accepted by <a href="https://eccv.ecva.net/virtual/2024/papers.html?filter=titles">ECCV2024</a>.
+            <span class="news-date">[07/2024]:</span> <b>One</b> Paper accepted by <a href="https://eccv.ecva.net/virtual/2024/papers.html?filter=titles">ECCV2024</a>.
           </div>
 
 <!--           <div class="list-item highlight" data-category="highlight">
@@ -232,170 +243,494 @@
 
 
         <!-- Publications -->
-<!--         <div class="list-item publication" data-category="publication">
-          <a href="https://general-part-assembly.github.io/" class="thumbnail">
-            <img src="images/gpat-teaser.jpeg" alt="" />
+
+        <div class="list-item publication publication-heading research-robotics" data-category="publication">
+          <h2>Embodied AI</h2>
+          <p>Robot learning, manipulation, VLA policies, and affordance grounding.</p>
+        </div>
+
+        <div id="perturbot" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="1" data-lead-author="true">
+          <a href="https://github.com/aim-uofa/PerturBot" class="thumbnail">
+            <img src="images/perturbot.png" width="720" height="436" alt="PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://general-part-assembly.github.io/">Rearrangement Planning for General Part Assembly</a></h3>
+            <h3><a href="https://github.com/aim-uofa/PerturBot">PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training</a></h3>
             <p>
-              Yulong Li, Andy Zeng, Shuran Song<br>
-                <i>Conference on Robot Learning (CoRL) 2023</i><br>
-                <font color="49bf9"><i>&#9733; Oral Presentation, CoRL &#9733;</i></font><br>
-                <a href="https://general-part-assembly.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/abs/2307.00206">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://github.com/columbia-ai-robotics/gpat/">Code</a>
+              <b>Mingyu Liu*</b>, Chonghao Sima*, Tianjian Feng, Hanqing Wang, Cong Chen, Hao Chen, Chunhua Shen<br>
+                <i>Manuscript, 2026</i><br>
+                <span class="publication-links"><a href="https://github.com/aim-uofa/PerturBot" data-link-fallback="repository" title="Webpage link pending; opens the project repository">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/PerturBot">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<span class="publication-link-unavailable" role="link" aria-disabled="true" title="PDF link not available yet">PDF</span></span>
             </p>
-          </div>
-        </div> -->
-        
-        <div class="list-item publication" data-category="publication">
-          <div class="project-description">
-            <b>Recent Publications(* means equal contribution):</b> <a href="https://scholar.google.com/citations?user=1b_peoQAAAAJ&hl=zh-CN">[Full List]</a>
           </div>
         </div>
 
-      <div class="list-item publication" data-category="publication">
-          <a href="https://aim-uofa.github.io/StaMo/" class="thumbnail">
-            <img src="images/stamo.png" alt="" />
+        <div id="stair" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="1" data-lead-author="true">
+          <a href="https://arxiv.org/abs/2606.15587" class="thumbnail">
+            <img src="images/stair.png" width="720" height="224" alt="Perfect Demo Makes Poor Teacher: Learning Robust Alignment from Critical Motion Segments — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://aim-uofa.github.io/StaMo/">StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation
-</a></h3>
+            <h3><a href="https://arxiv.org/abs/2606.15587">Perfect Demo Makes Poor Teacher: Learning Robust Alignment from Critical Motion Segments</a></h3>
+            <p>
+              <b>Mingyu Liu*</b>, Zeju Li*, Jiuhe Shu, Hanqing Wang, Yuhao Chao, Hao Chen, Chunhua Shen<br>
+                <i>Conference on Robot Learning (CoRL) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2606.15587" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/STAIR">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2606.15587">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="videoafford" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="2" data-lead-author="true">
+          <a href="https://arxiv.org/abs/2602.09638" class="thumbnail">
+            <img src="images/videoafford.webp" width="720" height="160" alt="VideoAfford: Grounding 3D Affordance from Human-Object-Interaction Videos via Multimodal Large Language Model — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2602.09638">VideoAfford: Grounding 3D Affordance from Human-Object-Interaction Videos via Multimodal Large Language Model</a></h3>
+            <p>
+              <span title="Hanqing Wang*, Mingyu Liu*, Xiaoyu Chen, Chengwei MA, Yiming Zhong, Wenti Yin, Yuhao Liu, Zhiqing Cui, Jiahao Yuan, Lu Dai, Zhiyuan Ma, Hui Xiong">Hanqing Wang*, <b>Mingyu Liu*</b>, Xiaoyu Chen, Chengwei MA, Yiming Zhong, Wenti Yin, Yuhao Liu, Zhiqing Cui, Jiahao Yuan, Lu Dai, Zhiyuan Ma, Hui Xiong</span><br>
+                <i>Conference on Neural Information Processing Systems (NeurIPS) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2602.09638" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2602.09638" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2602.09638">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="stamo" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="1" data-lead-author="true">
+          <a href="https://aim-uofa.github.io/StaMo/" class="thumbnail">
+            <img src="images/stamo.png" width="1596" height="1284" alt="StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://aim-uofa.github.io/StaMo/">StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation</a></h3>
             <p>
               <b>Mingyu Liu*</b>, Jiuhe Shu, Hui Chen, Zeju Li, Canyu Zhao, Jiange yang, Shenyuan Gao, Hao Chen, Chunhua Shen<br>
                 <i>Conference on Computer Vision and Pattern Recognition (CVPR) 2026</i><br>
-                <font color="49bf9"><i>&#9733; Highlight Presentation(3.1% in all submission) &#9733;</i></font><br>
-                <a href="https://aim-uofa.github.io/StaMo/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/abs/2502.17157">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://openreview.net/pdf?id=j4LITBSUjs">Code</a>
+                <span class="publication-honor"><i>★ Highlight Presentation(3.1% in all submission) ★</i></span><br>
+                <span class="publication-links"><a href="https://aim-uofa.github.io/StaMo/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/StaMo">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2510.05057">PDF</a></span>
             </p>
           </div>
         </div>
-        
 
-        
-        <div class="list-item publication" data-category="publication">
-          <a href="https://aim-uofa.github.io/Diception/" class="thumbnail">
-            <img src="images/diception.png" alt="" />
+        <div id="gae" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="1" data-lead-author="true">
+          <a href="https://arxiv.org/abs/2510.03896" class="thumbnail">
+            <img src="images/gae.png" width="720" height="643" alt="GAE: Unleashing Physical Potential of VLM with Generalizable Action Expert — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://aim-uofa.github.io/Diception/">DICEPTION: a generalist diffusion model for visual perceptual tasks
-</a></h3>
+            <h3><a href="https://arxiv.org/abs/2510.03896">GAE: Unleashing Physical Potential of VLM with Generalizable Action Expert</a></h3>
             <p>
-              Canyu Zhao*, <b>Mingyu Liu*</b>, Huanyi Zheng, Muzhi Zhu, Zhiyue Zhao, Hao Chen, Tong He, Chunhua Shen<br>
-                <i>Conference on Neural Information Processing Systems (NeurIPS) 2025</i><br>
-                <font color="49bf9"><i>&#9733; Spotlight Presentation(3.1% in all submission) &#9733;</i></font><br>
-                <a href="https://aim-uofa.github.io/Diception/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/abs/2502.17157">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://openreview.net/pdf?id=j4LITBSUjs">Code</a>
+              <b>Mingyu Liu</b>, Zheng Huang, Xiaoyi Lin, Muzhi Zhu, Canyu Zhao, Yating Wang, Haoyi Zhu, Hao Chen, Chunhua Shen<br>
+                <i>International Conference on Machine Learning (ICML) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2510.03896" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2510.03896" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2510.03896">PDF</a></span>
             </p>
           </div>
         </div>
-        
-        <div class="list-item publication" data-category="publication">
-          <div class="project-description">
-            <b>Selected Publications(* means equal contribution):</b> <a href="https://scholar.google.com/citations?user=1b_peoQAAAAJ&hl=zh-CN">[Full List]</a>
-          </div>
-        </div>
 
-
-        
-      <div class="list-item publication" data-category="publication">
-          <a href="https://weijiawu.github.io/MovieBench/" class="thumbnail">
-            <img src="images/mbench.jpg" alt="" />
+        <div id="notvla" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="2" data-lead-author="true">
+          <a href="https://arxiv.org/abs/2510.03895" class="thumbnail">
+            <img src="images/notvla.png" width="720" height="236" alt="NoTVLA: Semantics-Preserving Robot Adaptation via Narrative Action Interfaces — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://weijiawu.github.io/MovieBench/">MovieBench:A Hierarchical Movie Level Dataset for Long Video Generation
-</a></h3>
+            <h3><a href="https://arxiv.org/abs/2510.03895">NoTVLA: Semantics-Preserving Robot Adaptation via Narrative Action Interfaces</a></h3>
             <p>
-              Weijia Wu, <b>Mingyu Liu</b>, Zeyu Zhu, Xi Xia, Haoen Feng, Wen Wang, Kevin Qinghong Lin, Chunhua Shen, Mike Zheng Shou<br>
-                <i>Conference on Computer Vision and Pattern Recognition (CVPR) 2025</i><br>
-<!--                 <font color="49bf9"><i>&#9733; Spotlight Presentation(5.1% in all submission) &#9733;</i></font><br> -->
-                <a href="https://weijiawu.github.io/MovieBench/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/abs/2411.15262">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://openreview.net/pdf?id=j4LITBSUjs">Code</a>
+              Zheng Huang*, <b>Mingyu Liu*</b>, Xiaoyi Lin, Muzhi Zhu, Canyu Zhao, Zongze Du, Ye Lin, Xiaoman Li, Yiduo Jia, Hao Zhong, Hao Chen, Chunhua Shen<br>
+                <i>Conference on Neural Information Processing Systems (NeurIPS) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2510.03895" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2510.03895" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2510.03895">PDF</a></span>
             </p>
           </div>
         </div>
 
-        
-        <div class="list-item publication" data-category="publication">
-          <a href="https://general-part-assembly.github.io/" class="thumbnail">
-            <img src="images/pllava.jpg" alt="" />
+        <div id="odyssey" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="3" data-lead-author="false">
+          <a href="https://kaijwang.github.io/odyssey.github.io/" class="thumbnail">
+            <img src="images/odyssey.webp" width="720" height="239" alt="ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://general-part-assembly.github.io/">PerturboLLaVA: Reducing Multimodal Hallucinations with Perturbative Visual Training
-</a></h3>
+            <h3><a href="https://kaijwang.github.io/odyssey.github.io/">ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks</a></h3>
+            <p>
+              <span title="Kaijun Wang, Liqin Lu, Mingyu Liu, Jianuo Jiang, Zeju Li, Bolin Zhang, Wancai Zheng, Xinyi Yu, Hao Chen, Chunhua Shen">Kaijun Wang, Liqin Lu, <b>Mingyu Liu</b>, Jianuo Jiang, Zeju Li, Bolin Zhang, Wancai Zheng, Xinyi Yu, Hao Chen, Chunhua Shen</span><br>
+                <i>AAAI Conference on Artificial Intelligence (AAAI) 2026</i><br>
+                <span class="publication-honor"><i>★ Oral Presentation ★</i></span><br>
+                <span class="publication-links"><a href="https://kaijwang.github.io/odyssey.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.08240" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.08240">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="vq-vla" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2025" data-author-position="3" data-lead-author="false">
+          <a href="https://xiaoxiao0406.github.io/vqvla.github.io" class="thumbnail">
+            <img src="images/vq-vla.webp" width="720" height="356" alt="VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://xiaoxiao0406.github.io/vqvla.github.io">VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers</a></h3>
+            <p>
+              <span title="Yating Wang, Haoyi Zhu, Mingyu Liu, Jiange Yang, Hao-Shu Fang, Tong He">Yating Wang, Haoyi Zhu, <b>Mingyu Liu</b>, Jiange Yang, Hao-Shu Fang, Tong He</span><br>
+                <i>International Conference on Computer Vision (ICCV) 2025</i><br>
+                <span class="publication-links"><a href="https://xiaoxiao0406.github.io/vqvla.github.io">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2507.01016" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2507.01016">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="advdex" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="4" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2608.14028" class="thumbnail">
+            <img src="images/advdex.webp" width="720" height="370" alt="AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2608.14028">AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning</a></h3>
+            <p>
+              <span title="Zhiyue Zhao, Jingyi Wu, Hairuo Liu, Mingyu Liu, Liyang Li, Hengdi Zhang, Tong He, Zhengxue Cheng">Zhiyue Zhao, Jingyi Wu, Hairuo Liu, <b>Mingyu Liu</b>, Liyang Li, Hengdi Zhang, Tong He, Zhengxue Cheng</span><br>
+                <i>Conference on Robot Learning (CoRL) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2608.14028" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2608.14028" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2608.14028">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="diffusion-affordance" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="4" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2508.01651" class="thumbnail">
+            <img src="images/diffusion-affordance.webp" width="720" height="363" alt="Diffusion Models are Open-World Affordance Learners: Leveraging Generative Priors for 3D Affordance Learning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2508.01651">Diffusion Models are Open-World Affordance Learners: Leveraging Generative Priors for 3D Affordance Learning</a></h3>
+            <p>
+              <span title="Hanqing Wang, Zhenhao Zhang, Kaiyang Ji, Mingyu Liu, Wenti Yin, yuchao chen, Zhirui Liu, Xiangyu Zeng, Tianxiang Gui, Hangxing Zhang, Jiahao Yuan, Zhiqing Cui, Jiaxin Liu, Zhiyuan Ma, Hui Xiong">Hanqing Wang, Zhenhao Zhang, Kaiyang Ji, <b>Mingyu Liu</b>, …, Zhiyuan Ma, Hui Xiong</span><br>
+                <i>European Conference on Computer Vision (ECCV) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2508.01651" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.01651" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.01651">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="como" class="list-item publication publication-entry research-robotics" data-category="publication" data-year="2026" data-author-position="4" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2505.17006" class="thumbnail">
+            <img src="images/como.webp" width="720" height="235" alt="CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2505.17006">CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning</a></h3>
+            <p>
+              <span title="Jiange Yang, Yansong Shi, Haoyi Zhu, Mingyu Liu, Kaijing Ma, Yating Wang, Gangshan Wu, Tong He, Limin Wang">Jiange Yang, Yansong Shi, Haoyi Zhu, <b>Mingyu Liu</b>, Kaijing Ma, Yating Wang, Gangshan Wu, Tong He, Limin Wang</span><br>
+                <i>Conference on Computer Vision and Pattern Recognition (CVPR) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2505.17006" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/MCG-NJU/CoMo">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2505.17006">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication publication-heading research-vlm" data-category="publication">
+          <h2>Foundation Model</h2>
+          <p>Vision-language reasoning and multimodal evaluation, including earlier work on recognition and document understanding.</p>
+        </div>
+
+        <div id="perturbollava" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2025" data-author-position="2" data-lead-author="true">
+          <a href="https://arxiv.org/abs/2503.06486" class="thumbnail">
+            <img src="images/pllava.jpg" width="1606" height="1216" alt="PerturboLLaVA: Reducing Multimodal Hallucinations with Perturbative Visual Training — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2503.06486">PerturboLLaVA: Reducing Multimodal Hallucinations with Perturbative Visual Training</a></h3>
             <p>
               Cong Chen*, <b>Mingyu Liu*</b>, Chenchen Jing, Yizhou Zhou, Fengyun Rao, Hao Chen, Bo Zhang, Chunhua Shen<br>
                 <i>International Conference on Learning Representations (ICLR) 2025</i><br>
-                <font color="49bf9"><i>&#9733; Spotlight Presentation(5.1% in all submission) &#9733;</i></font><br>
-                <a href="https://openreview.net/pdf?id=j4LITBSUjs">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://openreview.net/pdf?id=j4LITBSUjs">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://openreview.net/pdf?id=j4LITBSUjs">Code</a>
+                <span class="publication-honor"><i>★ Spotlight Presentation(5.1% in all submission) ★</i></span><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2503.06486" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/PerturboLLaVA">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2503.06486">PDF</a></span>
             </p>
           </div>
         </div>
 
-                <div class="list-item publication" data-category="publication">
-          <a href="https://general-part-assembly.github.io/" class="thumbnail">
-            <img src="images/mdreamer.jpg" alt="" />
+        <div id="seeing-the-unseen" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2025" data-author-position="2" data-lead-author="false">
+          <a href="https://www.ijcai.org/proceedings/2025/143" class="thumbnail">
+            <img src="images/seeing-the-unseen.webp" width="720" height="495" alt="Seeing the Unseen: Composing Outliers for Compositional Zero-Shot Learning — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://general-part-assembly.github.io/">Moviedreamer: Hierarchical generation for coherent long visual sequence</a></h3>
+            <h3><a href="https://www.ijcai.org/proceedings/2025/143">Seeing the Unseen: Composing Outliers for Compositional Zero-Shot Learning</a></h3>
+            <p>
+              <span title="Chenchen Jing, Mingyu Liu, Hao Chen, Yuling Xi, Xingyuan Bu, Dong Gong, Chunhua Shen">Chenchen Jing, <b>Mingyu Liu</b>, Hao Chen, Yuling Xi, Xingyuan Bu, Dong Gong, Chunhua Shen</span><br>
+                <i>International Joint Conference on Artificial Intelligence (IJCAI) 2025</i><br>
+                <span class="publication-links"><a href="https://www.ijcai.org/proceedings/2025/0143.pdf" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://www.ijcai.org/proceedings/2025/0143.pdf" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://www.ijcai.org/proceedings/2025/0143.pdf">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="looking-and-listening" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2023" data-author-position="2" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2306.03482" class="thumbnail">
+            <img src="images/looking-and-listening.webp" width="719" height="315" alt="Looking and Listening: Audio Guided Text Recognition — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2306.03482">Looking and Listening: Audio Guided Text Recognition</a></h3>
+            <p>
+              <span title="Wenwen Yu, Mingyu Liu, Biao Yang, Enming Zhang, Deqiang Jiang, Xing Sun, Yuliang Liu, Xiang Bai">Wenwen Yu, <b>Mingyu Liu</b>, Biao Yang, Enming Zhang, Deqiang Jiang, Xing Sun, Yuliang Liu, Xiang Bai</span><br>
+                <i>Preprint, 2023</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2306.03482" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2306.03482" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2306.03482">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="icdar-seal" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2023" data-author-position="2" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2304.11966" class="thumbnail">
+            <img src="images/icdar-seal.webp" width="586" height="160" alt="ICDAR 2023 Competition on Reading the Seal Title — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2304.11966">ICDAR 2023 Competition on Reading the Seal Title</a></h3>
+            <p>
+              <span title="Wenwen Yu, Mingyu Liu, Mingrui Chen, Ning Lu, Yinlong Wen, Yuliang Liu, Dimosthenis Karatzas, Xiang Bai">Wenwen Yu, <b>Mingyu Liu</b>, Mingrui Chen, Ning Lu, Yinlong Wen, Yuliang Liu, Dimosthenis Karatzas, Xiang Bai</span><br>
+                <i>International Conference on Document Analysis and Recognition (ICDAR) 2023</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2304.11966" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2304.11966" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2304.11966">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="sdeval" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2026" data-author-position="3" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2508.06142" class="thumbnail">
+            <img src="images/sdeval.webp" width="720" height="395" alt="SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2508.06142">SDEval: Safety Dynamic Evaluation for Multimodal Large Language Models</a></h3>
+            <p>
+              <span title="Hanqing Wang, Yuan Tian, Mingyu Liu, Zhenhao Zhang, Xiangyang Zhu">Hanqing Wang, Yuan Tian, <b>Mingyu Liu</b>, Zhenhao Zhang, Xiangyang Zhu</span><br>
+                <i>AAAI Conference on Artificial Intelligence (AAAI) 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2508.06142" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.06142" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.06142">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="learning-by-imagining" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2025" data-author-position="3" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2509.12711" class="thumbnail">
+            <img src="images/learning-by-imagining.webp" width="539" height="276" alt="Learning by Imagining: Debiased Feature Augmentation for Compositional Zero-Shot Learning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2509.12711">Learning by Imagining: Debiased Feature Augmentation for Compositional Zero-Shot Learning</a></h3>
+            <p>
+              <span title="Haozhe Zhang, Chenchen Jing, Mingyu Liu, Qingsheng Wang, Hao Chen">Haozhe Zhang, Chenchen Jing, <b>Mingyu Liu</b>, Qingsheng Wang, Hao Chen</span><br>
+                <i>Preprint, 2025</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2509.12711" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2509.12711" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2509.12711">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="take-a-step-back" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2024" data-author-position="3" data-lead-author="false">
+          <a href="https://mybearyzhang.github.io/projects/TwoStageReason/" class="thumbnail">
+            <img src="images/takestepback.jpg" width="1298" height="738" alt="Take A Step Back: Rethinking the Two Stages in Visual Reasoning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://mybearyzhang.github.io/projects/TwoStageReason/">Take A Step Back: Rethinking the Two Stages in Visual Reasoning</a></h3>
+            <p>
+              Mingyu Zhang, Jiting Cai, <b>Mingyu Liu</b>, Yue Xu, Cewu Lu, Yong-Lu Li<br>
+                <i>European Conference on Computer Vision (ECCV) 2024</i><br>
+                <span class="publication-links"><a href="https://mybearyzhang.github.io/projects/TwoStageReason/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/mybearyZhang/TwoStageReason">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2407.19666">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="icdar-structured-text" class="list-item publication publication-entry research-vlm" data-category="publication" data-year="2023" data-author-position="7" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2306.03287" class="thumbnail">
+            <img src="images/icdar-structured-text.webp" width="714" height="640" alt="ICDAR 2023 Competition on Structured Text Extraction from Visually-Rich Document Images — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2306.03287">ICDAR 2023 Competition on Structured Text Extraction from Visually-Rich Document Images</a></h3>
+            <p>
+              <span title="Wenwen Yu, Chengquan Zhang, Haoyu Cao, Wei Hua, Bohan Li, Huang Chen, Mingyu Liu, Mingrui Chen, Jianfeng Kuang, Mengjun Cheng, Yuning Du, Shikun Feng, Xiaoguang Hu, Pengyuan Lyu, Kun Yao, Yuechen Yu, Yuliang Liu, Wanxiang Che, Errui Ding, Cheng-Lin Liu, Jiebo Luo, Shuicheng Yan, Min Zhang, Dimosthenis Karatzas, Xing Sun, Jingdong Wang, Xiang Bai">Wenwen Yu, Chengquan Zhang, Haoyu Cao, Wei Hua, …, <b>Mingyu Liu</b>, …, Jingdong Wang, Xiang Bai</span><br>
+                <i>International Conference on Document Analysis and Recognition (ICDAR) 2023</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2306.03287" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2306.03287" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2306.03287">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication publication-heading research-generative" data-category="publication">
+          <h2>Generative Models &amp; World Models</h2>
+          <p>Image and video generation, diffusion-based perception, and embodied world modeling.</p>
+        </div>
+
+        <div id="diception" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2025" data-author-position="2" data-lead-author="true">
+          <a href="https://aim-uofa.github.io/Diception/" class="thumbnail">
+            <img src="images/diception.png" width="899" height="344" alt="DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://aim-uofa.github.io/Diception/">DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks</a></h3>
+            <p>
+              Canyu Zhao*, <b>Mingyu Liu*</b>, Huanyi Zheng, Muzhi Zhu, Zhiyue Zhao, Hao Chen, Tong He, Chunhua Shen<br>
+                <i>Conference on Neural Information Processing Systems (NeurIPS) 2025</i><br>
+                <span class="publication-honor"><i>★ Spotlight Presentation(3.1% in all submission) ★</i></span><br>
+                <span class="publication-links"><a href="https://aim-uofa.github.io/Diception/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/Diception">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2502.17157">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="moviedreamer" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2025" data-author-position="2" data-lead-author="true">
+          <a href="https://aim-uofa.github.io/MovieDreamer/" class="thumbnail">
+            <img src="images/mdreamer.jpg" width="1460" height="850" alt="MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequence — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://aim-uofa.github.io/MovieDreamer/">MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequence</a></h3>
             <p>
               Canyu Zhao*, <b>Mingyu Liu*</b>, Wen Wang, Weihua Chen, Fan Wang, Hao Chen, Bo Zhang, Chunhua Shen<br>
                 <i>International Conference on Learning Representations (ICLR) 2025</i><br>
-<!--                 <font color="49bf9"><i>&#9733; Oral Presentation, CoRL &#9733;</i></font><br> -->
-                <a href="https://aim-uofa.github.io/MovieDreamer/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/pdf/2407.16655">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://github.com/aim-uofa/MovieDreamer">Code</a>
+                <span class="publication-links"><a href="https://aim-uofa.github.io/MovieDreamer/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/MovieDreamer">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2407.16655">PDF</a></span>
             </p>
           </div>
         </div>
 
-                <div class="list-item publication" data-category="publication">
-          <a href="https://general-part-assembly.github.io/" class="thumbnail">
-            <img src="images/genpercept.jpg" alt="" />
+        <div id="moviebench" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2025" data-author-position="2" data-lead-author="false">
+          <a href="https://weijiawu.github.io/MovieBench/" class="thumbnail">
+            <img src="images/mbench.jpg" width="2692" height="1586" alt="MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://general-part-assembly.github.io/">What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?</a></h3>
+            <h3><a href="https://weijiawu.github.io/MovieBench/">MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation</a></h3>
+            <p>
+              Weijia Wu, <b>Mingyu Liu</b>, Zeyu Zhu, Xi Xia, Haoen Feng, Wen Wang, Kevin Qinghong Lin, Chunhua Shen, Mike Zheng Shou<br>
+                <i>Conference on Computer Vision and Pattern Recognition (CVPR) 2025</i><br>
+                <span class="publication-links"><a href="https://weijiawu.github.io/MovieBench/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/showlab/MovieBench">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2411.15262">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="genpercept" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2025" data-author-position="3" data-lead-author="false">
+          <a href="https://huggingface.co/spaces/guangkaixu/GenPercept" class="thumbnail">
+            <img src="images/genpercept.jpg" width="1478" height="698" alt="What Matters When Repurposing Diffusion Models for General Dense Perception Tasks? — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://huggingface.co/spaces/guangkaixu/GenPercept">What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?</a></h3>
             <p>
               Guangkai Xu, Yongtao Ge, <b>Mingyu Liu</b>, Chengxiang Fan, Kangyang Xie, Zhiyue Zhao, Hao Chen, Chunhua Shen<br>
                 <i>International Conference on Learning Representations (ICLR) 2025</i><br>
-<!--                 <font color="49bf9"><i>&#9733; Oral Presentation, CoRL &#9733;</i></font><br> -->
-                <a href="https://huggingface.co/spaces/guangkaixu/GenPercept">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/pdf/2403.06090">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://github.com/aim-uofa/GenPercept">Code</a>
+                <span class="publication-links"><a href="https://huggingface.co/spaces/guangkaixu/GenPercept">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/GenPercept">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2403.06090">PDF</a></span>
             </p>
           </div>
         </div>
 
-        <div class="list-item publication" data-category="publication">
-          <a href="https://general-part-assembly.github.io/" class="thumbnail">
-            <img src="images/takestepback.jpg" alt="" />
+        <div id="world-guidance" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2026" data-author-position="4" data-lead-author="false">
+          <a href="https://selen-suyue.github.io/WoGNet/" class="thumbnail">
+            <img src="images/world-guidance.webp" width="357" height="209" alt="World Guidance: World Modeling in Condition Space for Action Generation — paper illustration" />
           </a>
           <div class="project-description">
-            <h3><a href="https://general-part-assembly.github.io/">Take A Step Back: Rethinking the Two Stages in Visual Reasoning</a></h3>
+            <h3><a href="https://selen-suyue.github.io/WoGNet/">World Guidance: World Modeling in Condition Space for Action Generation</a></h3>
             <p>
-              Mingyu Zhang, Jiting Cai, <b>Mingyu Liu</b>, Yue Xu, Cewu Lu, Yong-Lu Li<br>
-                <i>European Conference on Computer Vision (ECCV), 2024</i><br>
-<!--                 <font color="49bf9"><i>&#9733; Oral Presentation, CoRL &#9733;</i></font><br> -->
-                <a href="https://mybearyzhang.github.io/projects/TwoStageReason/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                <a href="https://arxiv.org/pdf/2407.19666">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<!--                 <a href="https://general-part-assembly.github.io/figs/video.mp4">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                <a href="https://github.com/mybearyZhang/TwoStageReason">Code</a>
+              <span title="Yue Su, Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang, Ningyuan Huang, Weiheng Zhong, Zhengbang Zhu, Yuxiao Liu, Xihui Liu">Yue Su, Sijin Chen, Haixin Shi, <b>Mingyu Liu</b>, Zhengshen Zhang, Ningyuan Huang, Weiheng Zhong, Zhengbang Zhu, Yuxiao Liu, Xihui Liu</span><br>
+                <i>International Conference on Machine Learning (ICML) 2026</i><br>
+                <span class="publication-links"><a href="https://selen-suyue.github.io/WoGNet/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2602.22010" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2602.22010">PDF</a></span>
             </p>
           </div>
         </div>
+
+        <div id="generative-video-matting" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2025" data-author-position="4" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2508.07905" class="thumbnail">
+            <img src="images/generative-video-matting.webp" width="720" height="358" alt="Generative Video Matting — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2508.07905">Generative Video Matting</a></h3>
+            <p>
+              <span title="Yongtao Ge, Kangyang Xie, Guangkai Xu, Mingyu Liu, Li Ke, Longtao Huang, Hui Xue, Hao Chen, Chunhua Shen">Yongtao Ge, Kangyang Xie, Guangkai Xu, <b>Mingyu Liu</b>, Li Ke, Longtao Huang, Hui Xue, Hao Chen, Chunhua Shen</span><br>
+                <i>ACM SIGGRAPH (SIGGRAPH) 2025</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2508.07905" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/GVM">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.07905">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="primitive-world-models" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2025" data-author-position="7" data-lead-author="false">
+          <a href="https://qiaosun22.github.io/PrimitiveWorld/" class="thumbnail">
+            <img src="images/primitive-world-models.webp" width="720" height="250" alt="Learning Primitive Embodied World Models: Towards Scalable Robotic Learning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://qiaosun22.github.io/PrimitiveWorld/">Learning Primitive Embodied World Models: Towards Scalable Robotic Learning</a></h3>
+            <p>
+              <span title="Qiao Sun, Liujia Yang, Wei Tang, Wei Huang, Kaixin Xu, Yongchao Chen, Mingyu Liu, Jiange Yang, Haoyi Zhu, Yating Wang, Tong He, Yilun Chen, Xili Dai, Nanyang Ye, Qinying Gu">Qiao Sun, Liujia Yang, Wei Tang, Wei Huang, …, <b>Mingyu Liu</b>, …, Nanyang Ye, Qinying Gu</span><br>
+                <i>Preprint, 2025</i><br>
+                <span class="publication-links"><a href="https://qiaosun22.github.io/PrimitiveWorld/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.20840" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.20840">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="omniworld" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2026" data-author-position="11" data-lead-author="false">
+          <a href="https://yangzhou24.github.io/OmniWorld/" class="thumbnail">
+            <img src="images/omniworld.webp" width="720" height="334" alt="OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://yangzhou24.github.io/OmniWorld/">OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling</a></h3>
+            <p>
+              <span title="Yang Zhou, Yifan Wang, Jianjun Zhou, Wenzheng Chang, Haoyu Guo, Zizun Li, Kaijing Ma, Xinyue Li, Yating Wang, Haoyi Zhu, Mingyu Liu, Dingning Liu, Jiange Yang, Zhoujie Fu, Junyi Chen, Chunhua Shen, Jiangmiao Pang, Kaipeng Zhang, Tong He">Yang Zhou, Yifan Wang, Jianjun Zhou, Wenzheng Chang, …, <b>Mingyu Liu</b>, …, Kaipeng Zhang, Tong He</span><br>
+                <i>International Conference on Learning Representations (ICLR) 2026</i><br>
+                <span class="publication-links"><a href="https://yangzhou24.github.io/OmniWorld/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/yangzhou24/OmniWorld">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2509.12201">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="harnesseval-w" class="list-item publication publication-entry research-generative" data-category="publication" data-year="2026" data-author-position="20" data-lead-author="false">
+          <a href="https://mirros-lab.github.io/HarnessEval-W" class="thumbnail">
+            <img src="images/harnesseval-w.webp" width="720" height="490" alt="HarnessEval-W: Agentifying the Evaluation of Visual Worlds — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://mirros-lab.github.io/HarnessEval-W">HarnessEval-W: Agentifying the Evaluation of Visual Worlds</a></h3>
+            <p>
+              <span title="Weiliang Chen, Haowen Sun, Jun Gao, Jiawei Chi, Hanyang Wang, Qiyu Dai, Yihao Li, Hao Li, Jingnan Gao, Yi-Hsin Hung, Xingzhuo Guo, Shangchen Miao, Zhiyuan Shi, Xiang Li, Fengrui Tian, Weihua Du, Ziqi Huang, Shenyuan Gao, Siqiao Huang, Mingyu Liu, Yifei Li, Shizun Wang, Xi Wang, Tianqi Zhang, Xue Luo, Xiyin Ren, Jinshan Ren, Xiaoyang Shen, Xiaobo Hu, Zhiyang Dou, Mingyu Ding, Yichao Yan, Xinchao Wang, Yizhou Wang, Shilong Liu, Wenzhao Zheng, Yueqi Duan, Yuan Gong, Ziwei Liu, Ming-Yu Liu, Jialong Wu, Jiangran Lyu, Fangfu Liu">Weiliang Chen, Haowen Sun, Jun Gao, Jiawei Chi, …, <b>Mingyu Liu</b>, …, Jiangran Lyu, Fangfu Liu</span><br>
+                <i>Technical Report, 2026</i><br>
+                <span class="publication-links"><a href="https://mirros-lab.github.io/HarnessEval-W">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/mirros-lab/harnesseval-w">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2608.16859">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication publication-heading research-rl" data-category="publication">
+          <h2>Reinforcement Learning</h2>
+          <p>Reinforcement-learning post-training for perception, multimodal reasoning, and VLA policies.</p>
+        </div>
+
+        <div id="omnijigsaw" class="list-item publication publication-entry research-rl" data-category="publication" data-year="2026" data-author-position="4" data-lead-author="false">
+          <a href="https://aim-uofa.github.io/OmniJigsaw/" class="thumbnail">
+            <img src="images/omnijigsaw.webp" width="720" height="255" alt="OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://aim-uofa.github.io/OmniJigsaw/">OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering</a></h3>
+            <p>
+              <span title="Yiduo Jia, Muzhi Zhu, Hao Zhong, Mingyu Liu, Yuling Xi, Hao Chen, Bin Qin, Yongjie Yang, Zhenbo Luo, Chunhua Shen">Yiduo Jia, Muzhi Zhu, Hao Zhong, <b>Mingyu Liu</b>, Yuling Xi, Hao Chen, Bin Qin, Yongjie Yang, Zhenbo Luo, Chunhua Shen</span><br>
+                <i>Conference on Neural Information Processing Systems (NeurIPS) 2026</i><br>
+                <span class="publication-links"><a href="https://aim-uofa.github.io/OmniJigsaw/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/OmniJigsaw">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2604.08209">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="active-o3" class="list-item publication publication-entry research-rl" data-category="publication" data-year="2026" data-author-position="5" data-lead-author="false">
+          <a href="https://aim-uofa.github.io/ACTIVE-o3/" class="thumbnail">
+            <img src="images/active-o3.webp" width="583" height="640" alt="ACTIVE-o3: Empowering MLLMs with Active Perception via Pure Reinforcement Learning — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://aim-uofa.github.io/ACTIVE-o3/">ACTIVE-o3: Empowering MLLMs with Active Perception via Pure Reinforcement Learning</a></h3>
+            <p>
+              <span title="Muzhi Zhu, Hao Zhong, Canyu Zhao, Zongze Du, Mingyu Liu, Zheng Huang, Anzhou Li, Hao Chen, Cheng Zou, Jingdong Chen, Ming Yang, Chunhua Shen">Muzhi Zhu, Hao Zhong, Canyu Zhao, Zongze Du, <b>Mingyu Liu</b>, Zheng Huang, Anzhou Li, Hao Chen, Cheng Zou, Jingdong Chen, Ming Yang, Chunhua Shen</span><br>
+                <i>International Conference on Machine Learning (ICML) 2026</i><br>
+                <span class="publication-links"><a href="https://aim-uofa.github.io/ACTIVE-o3/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/Active-o3">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2505.21457">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="pair-vla" class="list-item publication publication-entry research-rl" data-category="publication" data-year="2026" data-author-position="6" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2605.13105" class="thumbnail">
+            <img src="images/pair-vla.webp" width="720" height="607" alt="What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2605.13105">What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models</a></h3>
+            <p>
+              <span title="Yuanfang Peng, Jingjing Fu, Chuheng Zhang, Li Zhao, Jiang Bian, Mingyu Liu, Ling Zhang, Jun Zhang, Rui Wang">Yuanfang Peng, Jingjing Fu, Chuheng Zhang, Li Zhao, Jiang Bian, <b>Mingyu Liu</b>, Ling Zhang, Jun Zhang, Rui Wang</span><br>
+                <i>Preprint, 2026</i><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2605.13105" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2605.13105" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2605.13105">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="omni-r1" class="list-item publication publication-entry research-rl" data-category="publication" data-year="2025" data-author-position="6" data-lead-author="false">
+          <a href="https://aim-uofa.github.io/OmniR1/" class="thumbnail">
+            <img src="images/omni-r1.webp" width="720" height="333" alt="Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://aim-uofa.github.io/OmniR1/">Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration</a></h3>
+            <p>
+              <span title="Hao Zhong, Muzhi Zhu, Zongze Du, Zheng Huang, Canyu Zhao, Mingyu Liu, Wen Wang, Hao Chen, Chunhua Shen">Hao Zhong, Muzhi Zhu, Zongze Du, Zheng Huang, Canyu Zhao, <b>Mingyu Liu</b>, Wen Wang, Hao Chen, Chunhua Shen</span><br>
+                <i>Conference on Neural Information Processing Systems (NeurIPS) 2025</i><br>
+                <span class="publication-links"><a href="https://aim-uofa.github.io/OmniR1/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/aim-uofa/Omni-R1">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2505.20256">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
+        <div id="affordance-r1" class="list-item publication publication-entry research-rl" data-category="publication" data-year="2026" data-author-position="9" data-lead-author="false">
+          <a href="https://arxiv.org/abs/2508.06206" class="thumbnail">
+            <img src="images/affordance-r1.webp" width="658" height="640" alt="Affordance-R1: Reinforcement Learning for Generalizable Affordance Reasoning in Multimodal Large Language Model — paper illustration" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2508.06206">Affordance-R1: Reinforcement Learning for Generalizable Affordance Reasoning in Multimodal Large Language Model</a></h3>
+            <p>
+              <span title="Hanqing Wang, Shaoyang Wang, Yiming Zhong, Zemin Yang, Jiamin Wang, Zhiqing Cui, Jiahao Yuan, Yifan Han, Mingyu Liu, Yuexin Ma">Hanqing Wang, Shaoyang Wang, Yiming Zhong, Zemin Yang, Jiamin Wang, Zhiqing Cui, Jiahao Yuan, Yifan Han, <b>Mingyu Liu</b>, Yuexin Ma</span><br>
+                <i>AAAI Conference on Artificial Intelligence (AAAI) 2026</i><br>
+                <span class="publication-honor"><i>★ Oral Presentation ★</i></span><br>
+                <span class="publication-links"><a href="https://arxiv.org/pdf/2508.06206" data-link-fallback="pdf" title="Webpage link pending; opens the paper PDF">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.06206" data-link-fallback="pdf" title="Code link pending; opens the paper PDF">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2508.06206">PDF</a></span>
+            </p>
+          </div>
+        </div>
+
         <!-- Talks -->
         <!-- <div class="list-item talk description" data-category="talk">
           Some of my slides can be found <a href="https://slides.com/andyzeng">here</a>
@@ -411,28 +746,97 @@
 
 
 
+        <section id="experience" class="list-item experience" data-category="experience" aria-label="Experience">
+          <h2 class="experience-group-title">Research &amp; Industry</h2>
+          <ul class="experience-list" role="list">
+            <li class="experience-entry" id="experience-bytedance">
+              <img class="experience-logo" src="images/institutions/bytedance-seed.png" width="224" height="224" alt="ByteDance logo" />
+              <div class="experience-content">
+                <div class="experience-title">
+                  <h3><a href="https://seed.bytedance.com/en/">ByteDance Seed</a></h3>
+                  <span class="experience-period"><time datetime="2025-11">Nov. 2025</time> &ndash; Present</span>
+                </div>
+                <p class="experience-role">Research Scientist Intern</p>
+                <p class="experience-detail">Multimodal Interaction and World Model team</p>
+              </div>
+            </li>
+            <li class="experience-entry" id="experience-shanghai-ai">
+              <img class="experience-logo" src="images/institutions/shanghai-ai.png" width="224" height="224" alt="Shanghai AI Laboratory logo" />
+              <div class="experience-content">
+                <div class="experience-title">
+                  <h3><a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a></h3>
+                  <span class="experience-period"><time datetime="2024-12">Dec. 2024</time> &ndash; <time datetime="2025-10">Oct. 2025</time></span>
+                </div>
+                <p class="experience-role">Research Intern</p>
+                <p class="experience-detail">Working with <a href="https://tonghe90.github.io/">Tong He</a> and <a href="https://oceanpang.github.io/">Jiangmiao Pang</a></p>
+              </div>
+            </li>
+            <li class="experience-entry" id="experience-sjtu">
+              <img class="experience-logo" src="images/institutions/sjtu-blue.png" width="224" height="224" alt="Shanghai Jiao Tong University emblem" />
+              <div class="experience-content">
+                <div class="experience-title">
+                  <h3><a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a></h3>
+                  <span class="experience-period"><time datetime="2022-12">Dec. 2022</time> &ndash; <time datetime="2023-11">Nov. 2023</time></span>
+                </div>
+                <p class="experience-role">Research Intern &middot; <a href="https://www.mvig.org/">MVIG</a></p>
+                <p class="experience-detail">Advisors: <a href="https://dirtyharrylyl.github.io/">Yonglu Li</a> and <a href="https://www.mvig.org/">Cewu Lu</a></p>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="experience-group-title">Education</h2>
+          <ul class="experience-list" role="list">
+            <li class="experience-entry" id="experience-zhejiang">
+              <img class="experience-logo" src="images/institutions/zhejiang.png" width="224" height="224" alt="Zhejiang University emblem" />
+              <div class="experience-content">
+                <div class="experience-title">
+                  <h3><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></h3>
+                  <span class="experience-period"><time datetime="2024-09">Sep. 2024</time> &ndash; Present</span>
+                </div>
+                <p class="experience-role">PhD Candidate &middot; State Key Laboratory of CAD&amp;CG</p>
+                <p class="experience-detail">Advisors: <a href="https://stan-haochen.github.io/">Hao Chen</a> and <a href="https://cshen.github.io/">Chunhua Shen</a></p>
+              </div>
+            </li>
+            <li class="experience-entry" id="experience-hust">
+              <img class="experience-logo" src="images/institutions/hust.png" width="224" height="224" alt="Huazhong University of Science and Technology emblem" />
+              <div class="experience-content">
+                <div class="experience-title">
+                  <h3><a href="https://english.hust.edu.cn/">Huazhong University of Science and Technology</a></h3>
+                  <span class="experience-period"><time datetime="2020-09">Sep. 2020</time> &ndash; <time datetime="2024-06">Jun. 2024</time></span>
+                </div>
+                <p class="experience-role">Bachelor's Degree &middot; Artificial Intelligence and Automation (Elite Class)</p>
+                <p class="experience-detail">Advisors: <a href="http://faculty.hust.edu.cn/liuyuliang/zh_CN/index.htm">Yuliang Liu</a> and <a href="https://xbai.vlrlab.net/">Xiang Bai</a></p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
         <!-- Services -->
         <div class="list-item misc" data-category="misc">
-          <div class="project-description">
-            <b>Hornors:</b>
-          </div>
+          <h2 id="honors-title" class="misc-section-title">Honors</h2>
+        </div>
+        <div class="list-item misc honor-entry reviewer-honor" data-category="misc">
+          <p class="date">2026</p><span class="honor-award">Silver Reviewer Award</span>, ICML
+        </div>
+        <div class="list-item misc honor-entry reviewer-honor" data-category="misc">
+          <p class="date"></p><span class="honor-award">Outstanding Reviewer</span>, ECCV
         </div>
         
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date">2024</p>Excellent Undergradute Graduation thesis</b>
         </div>
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date"></p>Outstanding Graduates</b>
         </div>
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date"></p>FiberHome Scholarship <b>(Only one in the Department)</b>
         </div>
         
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date">2023</p>Academic Excellence Scholarship <b>(rk1/30 Honor Class)</b>，HUST</b>
         </div>
         
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date"></p>China Aerospace Science and Technology Corporation(CASC) Scholarship <b>(Only one in the Department)</b>
         </div>
 
@@ -440,11 +844,11 @@
           <p class="date"></p><b>"SIEMENS Cup"</b> China Intelligent Manufacturing Challenge, <b>Second Prize</b>
         </div> -->
         
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date">2022</p>Outstanding Undergraduate of Academic Performance <b>(Top 1% in HUST)</b>
         </div>
 
-        <div class="list-item misc" data-category="misc">
+        <div class="list-item misc honor-entry" data-category="misc">
           <p class="date"></p>China University Robot Competition <b>(RoboCon)</b>, <b>3rd place</b> Nationalwide, <b>First Prize</b>
         </div>
 
@@ -476,15 +880,18 @@
           <p class="date"></p>Chinese Physics Olympiad, <b>First Prize</b>
         </div> -->
         
-        <div class="list-item misc" data-category="misc">
-          <div class="project-description">
-            <b>Academic Service:</b> 
-          </div>
-        </div>
-        
-      <div class="list-item misc" data-category="misc">
-          <p>Reviewer: <i>ICML 26 (<span style="color: silver;">Silver</span> Reviewer Award)</i>, <i>CVPR 26</i>, <i>NeurIPS 25</i>, <i>ICLR 25,26</i>,  <i>ECCV 26 (Outstanding Reviewer) </i>, <i>ACM MM 25</i></p>
-      </div>
+        <section id="academic-service" class="list-item misc" data-category="misc" aria-labelledby="academic-service-title">
+          <h2 id="academic-service-title" class="misc-section-title">Academic Service</h2>
+          <h3 class="service-label">Conference Reviewer</h3>
+          <ul class="service-list">
+            <li>International Conference on Learning Representations (ICLR)</li>
+            <li>International Conference on Machine Learning (ICML)</li>
+            <li>Conference on Neural Information Processing Systems (NeurIPS)</li>
+            <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
+            <li>European Conference on Computer Vision (ECCV)</li>
+            <li>ACM International Conference on Multimedia (ACM MM)</li>
+          </ul>
+        </section>
 
       </div>
 
@@ -513,36 +920,62 @@
         }
       });
 
-      // Bind filter button click.
+      var activeSection = read_filter_preference('filterValue', '.highlight');
+      var activeResearchArea = read_filter_preference('researchFilter', 'all');
+
       $('#filters').on( 'click', 'button', function() {
-        var filterValue = $( this ).attr('data-filter');
-        localStorage.setItem('filterValue', filterValue);
-        $grid.isotope({ filter: filterValue });
+        activeSection = $( this ).attr('data-filter');
+        save_filter_preference('filterValue', activeSection);
+        update_isotope();
       });
 
-      // Change is-checked class on buttons.
-      $('.button-group').each( function( i, buttonGroup ) {
-        var $buttonGroup = $( buttonGroup );
-        $buttonGroup.on( 'click', 'button', function() {
-          $buttonGroup.find('.is-checked').removeClass('is-checked');
-          $( this ).addClass('is-checked');
-        });
+      $('#research-filters').on( 'click', 'button', function() {
+        activeResearchArea = $( this ).attr('data-research-filter');
+        save_filter_preference('researchFilter', activeResearchArea);
+        update_isotope();
       });
+
+      function read_filter_preference(key, fallback) {
+        try {
+          return localStorage.getItem(key) || fallback;
+        } catch (error) {
+          return fallback;
+        }
+      }
+
+      function save_filter_preference(key, value) {
+        try {
+          localStorage.setItem(key, value);
+        } catch (error) {
+          return;
+        }
+      }
 
       function update_isotope() {
-        // Retrieve cached button click.
-        var defaultFilterValue = localStorage.getItem('filterValue');
-        if (defaultFilterValue == null) {
-          defaultFilterValue = ".highlight"
+        if (!['.highlight', '.publication', '.experience', '.misc'].includes(activeSection)) {
+          activeSection = '.highlight';
         }
-        $grid.isotope({ filter: defaultFilterValue });
-        var buttons = document.getElementsByClassName("button");
-        for (var currButton of buttons) {
-          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
-            currButton.classList.add('is-checked');
-          } else {
-            currButton.classList.remove('is-checked');
-          }
+        if (!['all', 'robotics', 'vlm', 'generative', 'rl'].includes(activeResearchArea)) {
+          activeResearchArea = 'all';
+        }
+
+        document.getElementById('research-controls').hidden = activeSection !== '.publication';
+        var researchSelector = activeResearchArea === 'all' ? '.publication' : '.publication.research-' + activeResearchArea;
+        $grid.isotope({ filter: activeSection === '.publication' ? researchSelector : activeSection });
+        document.getElementById('research-result-count').textContent = document.querySelectorAll(researchSelector + '.publication-entry').length + ' publications';
+
+        for (var sectionButton of document.querySelectorAll('#filters button')) {
+          var sectionSelected = sectionButton.getAttribute('data-filter') === activeSection;
+          sectionButton.classList.toggle('is-checked', sectionSelected);
+          sectionButton.setAttribute('aria-pressed', String(sectionSelected));
+        }
+        for (var researchButton of document.querySelectorAll('#research-filters button')) {
+          var buttonArea = researchButton.getAttribute('data-research-filter');
+          var areaSelected = buttonArea === activeResearchArea;
+          var countSelector = buttonArea === 'all' ? '.publication-entry' : '.publication-entry.research-' + buttonArea;
+          researchButton.querySelector('.research-count').textContent = document.querySelectorAll(countSelector).length;
+          researchButton.classList.toggle('is-checked', areaSelected);
+          researchButton.setAttribute('aria-pressed', String(areaSelected));
         }
       }
 
@@ -573,6 +1006,16 @@
       }
 
       update_isotope();
+
+      $(window).on('load', function() {
+        $grid.isotope('layout');
+      });
+
+      if (document.fonts) {
+        document.fonts.ready.then(function() {
+          $grid.isotope('layout');
+        });
+      }
 
     </script>
   </body>
